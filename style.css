@@ -1,0 +1,81 @@
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.form__name {
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.form__text {
+	width: 400px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 7px;
+}
+
+
+.commnet__name {
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.comment__text {
+	padding-right: 100px;
+	margin-bottom: 5px;
+}
+
+.commnet__name span {
+	margin-left: 10px;
+	font-size: 16px;
+}
+
+.form__date {
+	margin-bottom: 10px;
+}
+
+.form__btn {
+	padding: 10px 20px;
+	background-color: #3ea6ff;
+	color: white;
+	border: none;
+	border-radius: 10px;
+}
+
+.form__btn:disabled {
+	opacity: 0.5;
+}
+
+.error .form__name,
+.error .form__text {
+	border-color: red;
+}
+
+.error-text {
+	color: red;
+	margin-left: 10px;
+}
+
+.comment {
+	min-height: 30px;
+	position: relative;
+	margin: 30px 0px;
+	border-bottom: 1px solid;
+}
+
+.del-btn {
+	position: absolute;
+	right: 0;
+	top: 20%;
+	cursor: pointer;
+}
+
+.like-btn {
+	cursor: pointer;
+}
+
+.like-btn.active {
+	background-image: url(./icons/heart-active.png);
+}
